@@ -26,3 +26,9 @@
 *   **pronic.py:** The math.sqrt logic works well. Adding a quick inline comment explaining the logic would make it instantly clear to beginners.
 *   **armstrong.py:** Great use of len(str(n)) to dynamically find the digits! One small fix: add an empty `print()` at the very end of the script so the final tabbed output doesn't bleed into the terminal prompt.
 *   **struct.py:** Using a dictionary keeps the definition perfectly clean. Formatting the print output using f-strings was a great attention to detail.
+
+## 4. Partner Review Notes
+**Reviewed by:** Jainam
+*   *factorial.py:* The reverse loop logic works well. Adding a quick inline comment explaining that -1 is the step parameter in range(n, 0, -1) would make it instantly clear to beginners.
+*   *fibonacci.py:* Great use of tuple unpacking (a, b = b, a + b)! One small fix: add an empty print() at the very end of the script so the final tabbed output doesn't bleed into the terminal prompt.
+*   *struct.py:* Using @dataclass keeps the class definition perfectly clean. Formatting the marks output to one decimal place ({s1.marks:.1f}) was a great attention to detail.
